@@ -3,7 +3,7 @@ import PolicyHeaderNavigation from "../components/PolicyHeaderNavigation";
 
 const HomePage: FunctionComponent = () => {
   return (
-    <div className="w-full relative bg-white h-[5812px] overflow-hidden text-left text-[16.4px] text-gray-3 font-titre-grey">
+    <div className="w-full relative bg-white h-[5812px] overflow-hidden text-left text-base-4 text-gray-3 font-titre-grey">
       <div className="absolute top-[8194.7px] left-[1095px] font-medium">
         Digidop ©Copyright
       </div>

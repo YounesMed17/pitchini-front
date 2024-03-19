@@ -1,10 +1,13 @@
 import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 const PolicyHeaderNavigation: FunctionComponent = () => {
+  const navigate = useNavigate();
+
   const onButtonContainerClick = useCallback(() => {
-    // Please sync "Joint Freelancer  p1" to the project
-  }, []);
+    navigate("/joint-freelancer-p1");
+  }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
     // Please sync "Contact Page " to the project
