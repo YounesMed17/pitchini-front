@@ -5,7 +5,7 @@ const JointFreelancerP2: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
+    navigate("/");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -17,7 +17,7 @@ const JointFreelancerP2: FunctionComponent = () => {
   }, [navigate]);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onRectangle4Click = useCallback(() => {
@@ -41,7 +41,7 @@ const JointFreelancerP2: FunctionComponent = () => {
       <div className="absolute top-[8194.7px] left-[1095px] text-base-4 font-medium text-gray-3 text-left">
         Digidop ©Copyright
       </div>
-      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
+      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
         <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
           <img
             className="w-[304px] relative h-[92px] object-cover cursor-pointer"
@@ -74,7 +74,7 @@ const JointFreelancerP2: FunctionComponent = () => {
               className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
               onClick={onButtonContainerClick}
             >
-              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-black" />
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
               <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                 Join
               </div>
@@ -82,12 +82,12 @@ const JointFreelancerP2: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-blue-1" />
-      <div className="absolute top-[1258px] left-[270px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
+      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-blue-1" />
+      <div className="absolute top-[1258px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
       <div className="absolute top-[1161px] left-[292px] text-13xl font-medium text-blue-1 text-left inline-block w-[301px] h-[53px]">
         Password*
       </div>
-      <div className="absolute top-[1281px] left-[291px] text-13xl font-medium text-darkgray text-left inline-block w-[327px] h-[53px]">
+      <div className="absolute top-[1281px] left-[291px] text-13xl font-medium text-darkgray-200 text-left inline-block w-[327px] h-[53px]">
         Confirm Password*
       </div>
       <div className="absolute top-[1539px] left-[226px] text-11xl font-medium inline-block w-[173px] h-[53px]">
@@ -99,7 +99,7 @@ const JointFreelancerP2: FunctionComponent = () => {
       <div className="absolute top-[1543px] left-[1109px] text-11xl font-medium inline-block w-[180.4px] h-[45px] [transform:_rotate(0.08deg)] [transform-origin:0_0]">
         Completion
       </div>
-      <div className="absolute top-[310px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px]">
+      <div className="absolute top-[310px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px]">
         Are you using PITCHINI as a Recruiter or a Freelancer ?
       </div>
       <div className="absolute top-[199px] left-[calc(50%_-_481px)] text-44xl font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
@@ -140,7 +140,7 @@ const JointFreelancerP2: FunctionComponent = () => {
         onClick={onRectangle4Click}
       />
       <div
-        className="absolute h-[4.18%] top-[87.4%] bottom-[8.42%] left-[calc(50%_+_35px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-dgrad-color"
+        className="absolute h-[4.18%] top-[87.4%] bottom-[8.42%] left-[calc(50%_+_35px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-dgrad-color1"
         onClick={onRectangle5Click}
       />
       <div

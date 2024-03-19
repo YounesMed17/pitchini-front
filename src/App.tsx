@@ -5,8 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import JointFreelancerP from "./pages/JointFreelancerP";
 import HomePage from "./pages/HomePage";
+import JointFreelancerP from "./pages/JointFreelancerP";
 import JointFreelancerP1 from "./pages/JointFreelancerP1";
 import JointFreelancerP2 from "./pages/JointFreelancerP2";
 import JointFreelancerInterview from "./pages/JointFreelancerInterview";
@@ -14,6 +14,9 @@ import Login from "./pages/Login";
 import LoginFreelancer from "./pages/LoginFreelancer";
 import LoginRecruiter from "./pages/LoginRecruiter";
 import LoginRecruiter1 from "./pages/LoginRecruiter1";
+import PortfolioFreelancer from "./pages/PortfolioFreelancer";
+import PageDiscussions from "./pages/PageDiscussions";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   const action = useNavigationType();
@@ -35,7 +38,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home-page":
+      case "/joint-freelancer-p1":
         title = "";
         metaDescription = "";
         break;
@@ -67,6 +70,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/portfolio-freelancer":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/page-discussions":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/dashboard":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -85,8 +100,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<JointFreelancerP />} />
-      <Route path="/home-page" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/joint-freelancer-p1" element={<JointFreelancerP />} />
       <Route path="/joint-freelancer-p2" element={<JointFreelancerP1 />} />
       <Route path="/joint-freelancer-p3" element={<JointFreelancerP2 />} />
       <Route
@@ -97,6 +112,9 @@ function App() {
       <Route path="/login-freelancer" element={<LoginFreelancer />} />
       <Route path="/login-recruiter" element={<LoginRecruiter />} />
       <Route path="/login-recruiter1" element={<LoginRecruiter1 />} />
+      <Route path="/portfolio-freelancer" element={<PortfolioFreelancer />} />
+      <Route path="/page-discussions" element={<PageDiscussions />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }

@@ -6,7 +6,7 @@ const PolicyHeaderNavigation: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {

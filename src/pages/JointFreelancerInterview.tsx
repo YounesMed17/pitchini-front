@@ -5,7 +5,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
+    navigate("/");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -17,7 +17,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
   }, [navigate]);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   return (
@@ -25,7 +25,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
       <div className="absolute top-[8194.7px] left-[1095px] font-medium text-left">
         Digidop ©Copyright
       </div>
-      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
+      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
         <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
           <img
             className="w-[304px] relative h-[92px] object-cover cursor-pointer"
@@ -58,7 +58,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
               className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
               onClick={onButtonContainerClick}
             >
-              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-black" />
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
               <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                 Join
               </div>
@@ -74,7 +74,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
         alt=""
         src="/2201-1@2x.png"
       />
-      <div className="absolute top-[1471px] left-[calc(50%_-_427px)] text-13xl leading-[146%] text-darkgray inline-block w-[854px] h-[107px] opacity-[0.6]">
+      <div className="absolute top-[1471px] left-[calc(50%_-_427px)] text-13xl leading-[146%] text-darkgray-200 inline-block w-[854px] h-[107px] opacity-[0.6]">
         <p className="m-0">
           <span className="font-medium">
             You will receive an email containing the interview date and the
@@ -93,7 +93,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
           video interview.
         </p>
       </b>
-      <div className="absolute h-[4.18%] top-[84.91%] bottom-[10.91%] left-[calc(50%_-_98px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] flex flex-col items-center justify-end py-[26px] px-0 text-9xl text-orange font-montserrat border-[3px] border-solid border-dgrad-color">
+      <div className="absolute h-[4.18%] top-[84.91%] bottom-[10.91%] left-[calc(50%_-_98px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] flex flex-col items-center justify-end py-[26px] px-0 text-9xl text-orange font-montserrat border-[3px] border-solid border-dgrad-color1">
         <div className="w-[133px] relative tracking-[-0.01em] font-medium flex items-center justify-center h-[26px] shrink-0">
           Confirm
         </div>

@@ -5,7 +5,7 @@ const LoginFreelancer: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
+    navigate("/");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -17,16 +17,16 @@ const LoginFreelancer: FunctionComponent = () => {
   }, [navigate]);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onRectangleClick = useCallback(() => {
-    // Please sync "Dashboard " to the project
-  }, []);
+    navigate("/dashboard");
+  }, [navigate]);
 
   const onSIGNINTextClick = useCallback(() => {
-    // Please sync "Dashboard " to the project
-  }, []);
+    navigate("/dashboard");
+  }, [navigate]);
 
   const onForgotPasswordTextClick = useCallback(() => {
     navigate("/login-recruiter");
@@ -45,7 +45,7 @@ const LoginFreelancer: FunctionComponent = () => {
       <div className="absolute top-[1826px] left-[calc(50%_-_116px)] text-base font-medium text-gray-3 text-left">
         Copyright © PITCHINI 2024
       </div>
-      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
+      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
         <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
           <img
             className="w-[304px] relative h-[92px] object-cover cursor-pointer"
@@ -78,7 +78,7 @@ const LoginFreelancer: FunctionComponent = () => {
               className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
               onClick={onButtonContainerClick}
             >
-              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-black" />
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
               <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                 Join
               </div>
@@ -103,8 +103,8 @@ const LoginFreelancer: FunctionComponent = () => {
       >
         SIGN IN
       </div>
-      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-blue-1" />
-      <div className="absolute top-[1258px] left-[270px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
+      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-blue-1" />
+      <div className="absolute top-[1258px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
       <div className="absolute top-[1161px] left-[292px] text-13xl font-medium text-left inline-block w-[301px] h-[53px]">
         E-mail Address*
       </div>
@@ -117,14 +117,14 @@ const LoginFreelancer: FunctionComponent = () => {
       <div className="absolute top-[1726px] left-[calc(50%_-_264px)] [text-decoration:underline] font-medium text-dodgerblue inline-block w-[529px] h-[53px]">
         Don’t have an account ? Sign Up
       </div>
-      <div className="absolute top-[1281px] left-[291px] text-13xl font-medium text-darkgray text-left inline-block w-48 h-[53px]">
+      <div className="absolute top-[1281px] left-[291px] text-13xl font-medium text-darkgray-200 text-left inline-block w-48 h-[53px]">
         Password*
       </div>
       <div className="absolute top-[1383px] left-[322px] text-9xl uppercase font-medium text-gray-100 text-left inline-block w-[201px] h-10 [text-shadow:1px_0_0_rgba(0,_0,_0,_0),_0_1px_0_rgba(0,_0,_0,_0),_-1px_0_0_rgba(0,_0,_0,_0),_0_-1px_0_rgba(0,_0,_0,_0)]">
         Remember me
       </div>
       <div className="absolute top-[687px] left-[443px] w-[100px] h-[100px] overflow-hidden" />
-      <div className="absolute top-[340px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
+      <div className="absolute top-[340px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
       <div className="absolute top-[199px] left-[calc(50%_-_481px)] text-66xl font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
         Login the Pitchini
       </div>

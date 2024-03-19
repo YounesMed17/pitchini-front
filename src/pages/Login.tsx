@@ -5,7 +5,7 @@ const Login: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
+    navigate("/");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -13,7 +13,7 @@ const Login: FunctionComponent = () => {
   }, []);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onRectangleClick = useCallback(() => {
@@ -34,7 +34,7 @@ const Login: FunctionComponent = () => {
 
   return (
     <div className="w-full relative bg-white h-[1456px] overflow-hidden text-center text-xl text-gray-200 font-join-text">
-      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px]" />
+      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px]" />
       <div className="absolute top-[17px] left-[41px] w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
         <img
           className="w-[304px] relative h-[92px] object-cover cursor-pointer"
@@ -62,7 +62,7 @@ const Login: FunctionComponent = () => {
             className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
             onClick={onButtonContainerClick}
           >
-            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-black" />
+            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
             <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
               Join
             </div>
@@ -72,9 +72,9 @@ const Login: FunctionComponent = () => {
       <img
         className="absolute top-[485px] left-[calc(50%_-_417px)] w-[833px] h-[667px] object-cover"
         alt=""
-        src="/login02-converti02-1@2x.png"
+        src="/login02-converti02-11@2x.png"
       />
-      <div className="absolute top-[345px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
+      <div className="absolute top-[345px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
       <div className="absolute top-[200px] left-[calc(50%_-_482px)] text-66xl font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
         Login the Pitchini
       </div>

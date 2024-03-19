@@ -5,7 +5,7 @@ const JointFreelancerP1: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
+    navigate("/");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -17,11 +17,11 @@ const JointFreelancerP1: FunctionComponent = () => {
   }, [navigate]);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onRectangleTextarea2Click = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   const onRectangleTextarea3Click = useCallback(() => {
@@ -29,7 +29,7 @@ const JointFreelancerP1: FunctionComponent = () => {
   }, [navigate]);
 
   const onBACKClick = useCallback(() => {
-    navigate("/");
+    navigate("/joint-freelancer-p1");
   }, [navigate]);
 
   return (
@@ -37,8 +37,8 @@ const JointFreelancerP1: FunctionComponent = () => {
       <div className="absolute top-[8194.7px] left-[1095px] font-medium">
         Digidop ©Copyright
       </div>
-      <main className="absolute top-[0px] left-[0px] w-[1512px] h-[2210px] text-left text-13xl text-darkgray font-join-text">
-        <header className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-center text-xl text-white font-montserrat">
+      <main className="absolute top-[0px] left-[0px] w-[1512px] h-[2210px] text-left text-13xl text-darkgray-200 font-join-text">
+        <header className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-center text-xl text-white font-montserrat">
           <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
             <img
               className="w-[304px] relative h-[92px] object-cover cursor-pointer"
@@ -71,7 +71,7 @@ const JointFreelancerP1: FunctionComponent = () => {
                 className="w-[86px] relative h-10 cursor-pointer"
                 onClick={onButtonContainerClick}
               >
-                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-black" />
+                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
                 <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                   Join
                 </div>
@@ -79,15 +79,15 @@ const JointFreelancerP1: FunctionComponent = () => {
             </div>
           </div>
         </header>
-        <section className="absolute top-[1153px] left-[270px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
-        <section className="absolute top-[1280px] left-[266px] rounded-sm bg-silver box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
+        <section className="absolute top-[1153px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
+        <section className="absolute top-[1280px] left-[266px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
         <h2 className="m-0 absolute top-[1176px] left-[290px] text-inherit font-medium font-inherit inline-block w-[142px] h-[53px]">
           Domain
         </h2>
         <h2 className="m-0 absolute top-[1303px] left-[286px] text-inherit font-medium font-inherit inline-block w-[142px] h-[53px]">
           Skills
         </h2>
-        <div className="absolute top-[325px] left-[calc(50%_-_453px)] text-6xl leading-[146%] font-medium text-grey1 text-center inline-block w-[903px]">
+        <div className="absolute top-[325px] left-[calc(50%_-_453px)] text-6xl leading-[146%] font-medium text-grey2 text-center inline-block w-[903px]">
           Are you using PITCHINI as a Recruiter or a Freelancer ?
         </div>
         <section className="absolute top-[199px] left-[calc(50%_-_483px)] text-44xl font-semibold font-join-text text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
@@ -123,7 +123,7 @@ const JointFreelancerP1: FunctionComponent = () => {
           </h3>
           <div className="absolute top-[0px] left-[44px] rounded-[50%] bg-grey w-[86px] h-[86px]" />
           <div className="absolute top-[0px] left-[483px] rounded-[50%] bg-blue-1 box-border w-[86px] h-[86px] border-[3px] border-solid border-blue-1" />
-          <div className="absolute top-[0px] left-[930px] rounded-[50%] bg-silver box-border w-[86px] h-[86px] border-[3px] border-solid border-grey" />
+          <div className="absolute top-[0px] left-[930px] rounded-[50%] bg-silver-200 box-border w-[86px] h-[86px] border-[3px] border-solid border-grey" />
           <div className="absolute top-[16px] left-[81px] text-18xl font-semibold text-white text-left inline-block w-3 h-[37px]">
             1
           </div>
@@ -142,7 +142,7 @@ const JointFreelancerP1: FunctionComponent = () => {
             onClick={onRectangleTextarea2Click}
           />
           <textarea
-            className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_+_35px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-dgrad-color"
+            className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_+_35px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-dgrad-color1"
             onClick={onRectangleTextarea3Click}
           />
           <h3
@@ -165,7 +165,7 @@ const JointFreelancerP1: FunctionComponent = () => {
           alt=""
           src="/chevron-down@2x.png"
         />
-        <section className="absolute top-[1407px] left-[266px] rounded-sm bg-silver box-border w-[972px] h-[271px] flex flex-col items-center justify-center text-center text-13xl text-darkgray font-join-text border-[2px] border-solid border-blue-1">
+        <section className="absolute top-[1407px] left-[266px] rounded-sm bg-silver-200 box-border w-[972px] h-[271px] flex flex-col items-center justify-center text-center text-13xl text-darkgray-200 font-join-text border-[2px] border-solid border-blue-1">
           <div className="w-[601px] h-[211px] flex flex-col items-center justify-start gap-[12px]">
             <img
               className="w-[152px] relative h-[104px] object-cover"
