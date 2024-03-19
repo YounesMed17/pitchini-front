@@ -5,7 +5,7 @@ const JointFreelancerInterview: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -13,19 +13,19 @@ const JointFreelancerInterview: FunctionComponent = () => {
   }, []);
 
   const onLoginTextClick = useCallback(() => {
-    // Please sync "Login" to the project
-  }, []);
+    navigate("/login");
+  }, [navigate]);
 
   const onButtonContainerClick = useCallback(() => {
-    navigate("/joint-freelancer-p1");
+    navigate("/");
   }, [navigate]);
 
   return (
-    <div className="w-full relative bg-white h-[1889px] overflow-hidden text-center text-base-4 text-gray-3 font-titre-grey">
+    <div className="w-full relative bg-white h-[1889px] overflow-hidden text-center text-base-4 text-gray-3 font-join-text">
       <div className="absolute top-[8194.7px] left-[1095px] font-medium text-left">
         Digidop ©Copyright
       </div>
-      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray">
+      <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-xl text-gray-200">
         <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
           <img
             className="w-[304px] relative h-[92px] object-cover cursor-pointer"
