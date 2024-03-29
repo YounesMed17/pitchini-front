@@ -18,7 +18,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
   }, [navigate]);
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const openPOPUPNotification = useCallback(() => {
@@ -43,8 +43,8 @@ const PortfolioFreelancer: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-white h-[7058px] overflow-hidden text-left text-xl text-grey2 font-join-text">
-        <section className="absolute top-[1080px] left-[168px] w-[1176px] h-[998px] flex flex-col items-center justify-center gap-[41px] text-center text-17xl text-grey2 font-join-text">
+      <div className="w-full relative bg-white h-[7058px] overflow-hidden text-left text-xl text-grey1 font-paragraphe">
+        <section className="absolute top-[1080px] left-[168px] w-[1176px] h-[998px] flex flex-col items-center justify-center gap-[41px] text-center text-17xl text-grey1 font-paragraphe">
           <div className="w-[903px] relative h-[222px]">
             <h3 className="m-0 absolute top-[0px] left-[calc(50%_-_91.5px)] text-inherit leading-[146%] uppercase font-medium font-inherit inline-block w-[183px] h-[62px] opacity-[0.53]">
               Who am i
@@ -92,7 +92,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <section className="absolute top-[2943px] left-[172px] w-[1167px] h-[581px] text-center text-6xl text-grey2 font-join-text">
+        <section className="absolute top-[2943px] left-[172px] w-[1167px] h-[581px] text-center text-6xl text-grey1 font-paragraphe">
           <h3 className="m-0 absolute top-[0px] left-[calc(50%_-_91.5px)] text-17xl leading-[146%] uppercase font-medium font-inherit inline-block w-[183px] h-[62px] opacity-[0.53]">
             SKILLS
           </h3>
@@ -159,7 +159,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <section className="absolute top-[6182px] left-[calc(50%_-_778px)] [background:linear-gradient(99.26deg,_#000)] w-[1570px] h-[913px] flex flex-col items-start justify-end py-[133px] px-[162px] box-border text-left text-5xl text-gray-3 font-join-text">
+        <section className="absolute top-[6182px] left-[calc(50%_-_778px)] [background:linear-gradient(99.26deg,_#000)] w-[1570px] h-[913px] flex flex-col items-start justify-end py-[133px] px-[162px] box-border text-left text-5xl text-gray-3 font-paragraphe">
           <div className="w-[1232px] relative h-[646px]">
             <div className="absolute top-[0px] left-[343px] w-[210px] h-[245px]">
               <div className="absolute top-[0px] left-[0px] text-8xl font-semibold text-white">
@@ -267,7 +267,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <section className="absolute top-[5334px] right-[0px] rounded-[2.63px] bg-silver-100 w-[1512px] h-[848px] text-center text-17xl text-grey2 font-join-text">
+        <section className="absolute top-[5334px] right-[0px] rounded-[2.63px] bg-silver-100 w-[1512px] h-[848px] text-center text-17xl text-grey1 font-paragraphe">
           <input
             className="[border:none] [outline:none] bg-grey absolute top-[848px] left-[calc(50%_+_756px)] rounded-[2.63px] w-[1512px] h-[339px] [transform:_rotate(-180deg)] [transform-origin:0_0]"
             type="text"
@@ -292,7 +292,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             src="/mask-group@2x.png"
           />
         </section>
-        <section className="absolute top-[3678px] left-[172px] w-[1168px] h-[1563px] text-center text-17xl text-grey2 font-join-text">
+        <section className="absolute top-[3678px] left-[172px] w-[1168px] h-[1563px] text-center text-17xl text-grey1 font-paragraphe">
           <h3 className="m-0 absolute top-[0px] left-[calc(50%_-_108px)] text-inherit leading-[146%] uppercase font-medium font-inherit inline-block w-[215.7px] h-[62px] opacity-[0.53]">
             PORTFOLIO
           </h3>
@@ -303,7 +303,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
           </h1>
           <h3 className="m-0 absolute top-[404px] left-[calc(50%_-_584px)] text-inherit leading-[146%] uppercase inline-block w-[1158px] h-[54px] opacity-[0.53] text-gray-100 font-inherit">
             <span className="font-semibold">all</span>
-            <span className="font-medium text-grey2 whitespace-pre-wrap">
+            <span className="font-medium text-grey1 whitespace-pre-wrap">
               {" "}
               webdesign app design seo
             </span>
@@ -321,46 +321,46 @@ const PortfolioFreelancer: FunctionComponent = () => {
             <img
               className="absolute top-[0px] right-[591px] w-[281px] h-[426px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group1@2x.png"
             />
             <img
               className="absolute top-[440px] right-[0px] w-[279px] h-[494px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group2@2x.png"
             />
             <img
               className="absolute top-[508px] right-[887px] w-[280px] h-[426px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group3@2x.png"
             />
             <img
               className="absolute top-[508px] right-[295px] w-[281px] h-[426px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group4@2x.png"
             />
             <img
               className="absolute top-[0px] right-[0px] w-[280px] h-[426px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group5@2x.png"
             />
             <img
               className="absolute top-[0px] right-[888px] w-[279px] h-[494px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group6@2x.png"
             />
             <img
               className="absolute top-[0px] right-[296px] w-[280px] h-[494px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group7@2x.png"
             />
             <img
               className="absolute top-[440px] right-[591px] w-[280px] h-[494px] object-cover"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group8@2x.png"
             />
           </div>
         </section>
-        <section className="absolute top-[2232px] left-[171px] w-[1169px] h-[557px] flex flex-col items-center justify-center gap-[75px] text-center text-17xl text-grey2 font-join-text">
+        <section className="absolute top-[2232px] left-[171px] w-[1169px] h-[557px] flex flex-col items-center justify-center gap-[75px] text-center text-17xl text-grey1 font-paragraphe">
           <div className="w-[903px] h-[222px] flex flex-col items-center justify-center">
             <h3 className="m-0 w-[183px] relative text-inherit leading-[146%] uppercase font-medium font-inherit inline-block h-[62px] shrink-0 opacity-[0.53]">
               Service
@@ -413,7 +413,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <header className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] text-center text-xl text-gray-200 font-join-text">
+        <header className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] text-center text-xl text-gray-200 font-paragraphe">
           <img
             className="absolute top-[17px] left-[41px] w-[304px] h-[92px] object-cover cursor-pointer"
             alt=""
@@ -443,7 +443,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
           <img
             className="absolute top-[30px] left-[1377px] w-[66px] h-[66px] object-cover"
             alt=""
-            src="/mask-group@2x.png"
+            src="/mask-group9@2x.png"
           />
         </header>
         <div className="absolute top-[127px] left-[-473px] w-[1985px] h-[824px]">
@@ -483,7 +483,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
             src="/sans-titre--102@2x.png"
           />
           <div
-            className="absolute top-[calc(50%_+_317px)] left-[calc(50%_-_81.5px)] rounded-[9px] [background:linear-gradient(99.26deg,_#000)] box-border w-[636px] h-[95px] cursor-pointer text-center font-montserrat border-[2px] border-solid border-grey1"
+            className="absolute top-[calc(50%_+_317px)] left-[calc(50%_-_81.5px)] rounded-[9px] [background:linear-gradient(99.26deg,_#000)] box-border w-[636px] h-[95px] cursor-pointer text-center font-montserrat border-[2px] border-solid border-grey2"
             onClick={onButtonContainer2Click}
           >
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-gray-300" />
@@ -517,7 +517,7 @@ const PortfolioFreelancer: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="absolute top-[751px] left-[1101px] w-[257px] h-[52px] flex flex-row items-start justify-start py-0 pr-0 pl-[0.0000022729930151399458px] box-border gap-[256px]">
+          <div className="absolute top-[751px] left-[1101px] w-[257px] h-[52px] flex flex-row items-start justify-start gap-[256px]">
             <div className="w-0.5 relative box-border h-[54px] border-r-[2px] border-solid border-white" />
             <div className="w-0.5 relative box-border h-[54px] border-r-[2px] border-solid border-white" />
           </div>

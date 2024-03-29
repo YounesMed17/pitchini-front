@@ -16,7 +16,7 @@ const ContainerWithFormAndRadios: FunctionComponent<
 
   return (
     <div
-      className="absolute top-[500px] left-[64px] w-[447px] h-[114.5px] text-left text-5xl text-gray-400 font-join-text"
+      className="absolute top-[500px] left-[64px] w-[447px] h-[114.5px] text-left text-5xl text-gray-400 font-paragraphe"
       style={frameDivStyle}
     >
       <div className="absolute top-[0.5px] left-[130px] text-13xl tracking-[-0.01em] font-medium text-gray-200 flex items-center w-[219px] h-[47px]">
@@ -31,7 +31,7 @@ const ContainerWithFormAndRadios: FunctionComponent<
       <img
         className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
         alt=""
-        src="/group-512918.svg"
+        src="/group-5129182.svg"
       />
     </div>
   );

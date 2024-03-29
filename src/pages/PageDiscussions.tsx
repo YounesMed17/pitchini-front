@@ -11,7 +11,7 @@ const PageDiscussions: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const openPOPUPNotification = useCallback(() => {
@@ -36,7 +36,7 @@ const PageDiscussions: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-white h-[1698px] overflow-hidden text-left text-5xl text-gray-400 font-join-text">
+      <div className="w-full relative bg-white h-[1698px] overflow-hidden text-left text-5xl text-gray-400 font-paragraphe">
         <div className="absolute top-[459px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[523px] h-[167px]" />
         <div className="absolute top-[127px] left-[calc(50%_-_200px)] bg-lightblue w-[956px] h-[253px]" />
         <div className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px]" />
@@ -74,14 +74,14 @@ const PageDiscussions: FunctionComponent = () => {
         <img
           className="absolute top-[30px] left-[1377px] w-[66px] h-[66px] object-cover cursor-pointer"
           alt=""
-          src="/mask-group@2x.png"
+          src="/mask-group9@2x.png"
           onClick={onMaskGroupImageClick}
         />
         <div className="absolute top-[726.9px] left-[1074.9px] box-border w-[151.7px] h-[85.3px] hidden border-[1px] border-solid border-dgrad-color1" />
         <div className="absolute top-[169px] left-[27px] text-[40px] tracking-[-0.01em] font-medium text-gray-200 flex items-center w-[267px] h-[47px]">
           DISCUSSIONS
         </div>
-        <div className="absolute top-[352px] left-[27px] text-8xl tracking-[-0.01em] font-medium text-blue-1 flex items-center w-[158px] h-[58px]">
+        <div className="absolute top-[352px] left-[27px] text-8xl tracking-[-0.01em] font-medium text-blue flex items-center w-[158px] h-[58px]">
           Messagerie
         </div>
         <div className="absolute top-[352px] left-[224px] text-8xl tracking-[-0.01em] font-medium text-gray-200 flex items-center w-[210px] h-[58px]">
@@ -108,7 +108,7 @@ const PageDiscussions: FunctionComponent = () => {
         <img
           className="absolute top-[172px] left-[606px] w-[163.5px] h-[163.5px]"
           alt=""
-          src="/group-512918.svg"
+          src="/group-5129181.svg"
         />
         <div className="absolute top-[236px] left-[1182px] tracking-[-0.01em] font-light text-right flex items-center w-[280px]">
           11:03 am ( 23 hours ago)
@@ -127,7 +127,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[822.5px] left-[64px] w-[447px] h-[114.5px]">
@@ -143,7 +143,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[979px] left-[64px] w-[447px] h-[114.5px]">
@@ -159,7 +159,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1135.5px] left-[64px] w-[447px] h-[114.5px]">
@@ -175,7 +175,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1292px] left-[64px] w-[447px] h-[114.5px]">
@@ -191,7 +191,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1448.5px] left-[64px] w-[447px] h-[114.5px]">
@@ -207,7 +207,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1605px] left-[64px] w-[447px] h-[114.5px]">
@@ -223,7 +223,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1761.5px] left-[64px] w-[447px] h-[114.5px]">
@@ -239,7 +239,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[1918px] left-[64px] w-[447px] h-[114.5px]">
@@ -255,7 +255,7 @@ const PageDiscussions: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[114px] h-[114px]"
             alt=""
-            src="/group-512918.svg"
+            src="/group-5129183.svg"
           />
         </div>
         <div className="absolute top-[397px] left-[calc(50%_-_233px)] bg-whitesmoke-100 w-[33px] h-[1702px]" />
@@ -273,7 +273,7 @@ const PageDiscussions: FunctionComponent = () => {
         <img
           className="absolute top-[262px] left-[27px] w-8 h-[26px] object-cover"
           alt=""
-          src="/vecteezy-notificationiconsvectordesign-10654946-converti05-1@2x.png"
+          src="/vecteezy-notificationiconsvectordesign-10654946-converti05-11@2x.png"
         />
         <div className="absolute top-[300.5px] left-[calc(50%_-_729.5px)] box-border w-[471px] h-px border-t-[1px] border-solid border-dimgray-100" />
         <img

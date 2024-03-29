@@ -5,7 +5,7 @@ const LoginRecruiter: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -29,7 +29,7 @@ const LoginRecruiter: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="w-full relative bg-white h-[1589px] overflow-hidden text-left text-base-4 text-gray-3 font-join-text">
+    <div className="w-full relative bg-white h-[1589px] overflow-hidden text-left text-base-4 text-gray-3 font-paragraphe">
       <div className="absolute top-[8194.7px] left-[1095px] font-medium">
         Digidop ©Copyright
       </div>
@@ -67,7 +67,7 @@ const LoginRecruiter: FunctionComponent = () => {
                 className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
                 onClick={onButtonContainerClick}
               >
-                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
+                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey2" />
                 <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                   Join
                 </div>
@@ -90,7 +90,7 @@ const LoginRecruiter: FunctionComponent = () => {
           E-mail Address*
         </div>
         <div className="absolute top-[687px] left-[443px] w-[100px] h-[100px] overflow-hidden" />
-        <div className="absolute top-[344px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px] h-[74px]">
+        <div className="absolute top-[344px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px] h-[74px]">
           <p className="m-0">
             Enter the email address you used when you joined and we’ll send you
             instructions to reset your password.

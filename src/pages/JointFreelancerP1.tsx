@@ -1,11 +1,15 @@
 import { FunctionComponent, useCallback } from "react";
+import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import FrameComponent7 from "../components/FrameComponent7";
+import FrameComponent9 from "../components/FrameComponent9";
+import FrameComponent8 from "../components/FrameComponent8";
 
 const JointFreelancerP1: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -20,186 +24,92 @@ const JointFreelancerP1: FunctionComponent = () => {
     navigate("/joint-freelancer-p1");
   }, [navigate]);
 
-  const onRectangleTextarea2Click = useCallback(() => {
-    navigate("/joint-freelancer-p1");
-  }, [navigate]);
-
-  const onRectangleTextarea3Click = useCallback(() => {
-    navigate("/joint-freelancer-p3");
-  }, [navigate]);
-
-  const onBACKClick = useCallback(() => {
-    navigate("/joint-freelancer-p1");
-  }, [navigate]);
-
   return (
-    <div className="w-full relative bg-white h-[2238px] overflow-hidden text-left text-base-4 text-gray-3 font-join-text">
-      <div className="absolute top-[8194.7px] left-[1095px] font-medium">
-        Digidop ©Copyright
-      </div>
-      <main className="absolute top-[0px] left-[0px] w-[1512px] h-[2210px] text-left text-13xl text-darkgray-200 font-join-text">
-        <header className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px] flex flex-col items-start justify-center py-0 px-[41px] box-border text-center text-xl text-white font-montserrat">
-          <div className="w-[1429px] h-[92px] flex flex-row items-center justify-start gap-[529px]">
-            <img
-              className="w-[304px] relative h-[92px] object-cover cursor-pointer"
-              alt=""
-              src="/logo-pitchini-1@2x.png"
-              onClick={onLogoPitchini1Click}
-            />
-            <div className="w-[596px] h-10 flex flex-row items-center justify-end gap-[56px]">
-              <nav className="m-0 flex flex-row items-start justify-start gap-[54px] text-center text-xl text-gray-200 font-join-text">
-                <div className="relative tracking-[-0.01em] font-medium">
-                  Policies
-                </div>
-                <div className="relative tracking-[-0.01em] font-medium">
-                  Discover
-                </div>
-                <div
-                  className="relative tracking-[-0.01em] font-medium cursor-pointer"
-                  onClick={onContactTextClick}
-                >
-                  Contact
-                </div>
-                <div
-                  className="relative tracking-[-0.01em] font-medium cursor-pointer"
-                  onClick={onLoginTextClick}
-                >
-                  Login
-                </div>
-              </nav>
-              <div
-                className="w-[86px] relative h-10 cursor-pointer"
-                onClick={onButtonContainerClick}
-              >
-                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
-                <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
-                  Join
+    <div className="w-full h-[2238px] relative bg-white overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-7 box-border gap-[27px] tracking-[normal] text-center text-44xl text-grey1 font-paragraphe mq750:h-auto">
+      <FrameComponent7
+        logoPitchini1Top="0"
+        logoPitchini1Position="sticky"
+        onLogoPitchini1Click={onLogoPitchini1Click}
+        onContactTextClick={onContactTextClick}
+        onLoginTextClick={onLoginTextClick}
+        onButtonContainerClick={onButtonContainerClick}
+      />
+      <div className="self-stretch flex flex-row items-start justify-center py-0 pr-6 pl-5 box-border max-w-full shrink-0">
+        <div className="w-[976px] flex flex-col items-start justify-start gap-[59px] max-w-full mq750:gap-[29px_59px]">
+          <div className="self-stretch flex flex-row items-start justify-start pt-0 pb-[33px] pr-1.5 pl-[7px] box-border max-w-full">
+            <div className="flex-1 flex flex-col items-start justify-start gap-[2px] max-w-full">
+              <h1 className="m-0 self-stretch h-[124px] relative text-inherit font-semibold font-inherit text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block shrink-0 [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000] mq1050:text-31xl mq450:text-19xl">
+                Create your PITCHINI Account
+              </h1>
+              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[30px] box-border max-w-full text-6xl">
+                <div className="flex-1 flex flex-col items-start justify-start gap-[44px] max-w-full mq450:gap-[22px_44px]">
+                  <div className="self-stretch relative leading-[37px] font-medium mq450:text-xl mq450:leading-[29px]">
+                    Are you using PITCHINI as a Recruiter or a Freelancer ?
+                  </div>
+                  <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
+                    <div className="w-[645px] flex flex-col items-end justify-start gap-[59px] max-w-full mq750:gap-[29px_59px]">
+                      <img
+                        className="self-stretch h-[517px] relative max-w-full overflow-hidden shrink-0 object-cover"
+                        loading="lazy"
+                        alt=""
+                        src="/login02-converti02-1@2x.png"
+                      />
+                      <div className="self-stretch flex flex-row items-start justify-end py-0 pr-[23px] pl-[27px] box-border max-w-full">
+                        <div className="flex-1 flex flex-row items-start justify-start gap-[9px] max-w-full mq750:flex-wrap">
+                          <Button
+                            className="h-[79px] flex-1 min-w-[190px] mq750:flex-1"
+                            variant="contained"
+                            sx={{
+                              textTransform: "none",
+                              color: "#2f80ed",
+                              fontSize: "28",
+                              background: "#fff",
+                              borderRadius: "6px",
+                              "&:hover": { background: "#fff" },
+                              height: 79,
+                            }}
+                          >
+                            Freelacer
+                          </Button>
+                          <Button
+                            className="h-[79px] flex-[0.9478] min-w-[190px] mq750:flex-1"
+                            variant="contained"
+                            sx={{
+                              textTransform: "none",
+                              color: "#c4c4c4",
+                              fontSize: "28",
+                              background: "#fff",
+                              borderRadius: "6px",
+                              "&:hover": { background: "#fff" },
+                              height: 79,
+                            }}
+                          >
+                            Recruiter
+                          </Button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </header>
-        <section className="absolute top-[1153px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
-        <section className="absolute top-[1280px] left-[266px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
-        <h2 className="m-0 absolute top-[1176px] left-[290px] text-inherit font-medium font-inherit inline-block w-[142px] h-[53px]">
-          Domain
-        </h2>
-        <h2 className="m-0 absolute top-[1303px] left-[286px] text-inherit font-medium font-inherit inline-block w-[142px] h-[53px]">
-          Skills
-        </h2>
-        <div className="absolute top-[325px] left-[calc(50%_-_453px)] text-6xl leading-[146%] font-medium text-grey2 text-center inline-block w-[903px]">
-          Are you using PITCHINI as a Recruiter or a Freelancer ?
-        </div>
-        <section className="absolute top-[199px] left-[calc(50%_-_483px)] text-44xl font-semibold font-join-text text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-center inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
-          Create your PITCHINI Account
-        </section>
-        <img
-          className="absolute top-[406px] left-[calc(50%_-_324px)] w-[645px] h-[517px] object-cover"
-          alt=""
-          src="/login02-converti02-1@2x.png"
-        />
-        <div className="absolute top-[982px] left-[459px] w-[595px] h-[79px] text-center text-9xl text-blue-1 font-montserrat">
-          <textarea className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_-_297.5px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[293px] border-[3px] border-solid border-blue-1" />
-          <textarea className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_+_4.5px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[293px] border-[3px] border-solid border-grey" />
-          <h3 className="m-0 absolute h-[32.91%] top-[34.18%] left-[calc(50%_-_220.5px)] text-inherit tracking-[-0.01em] font-medium font-inherit flex items-center justify-center w-[140px]">
-            Freelacer
-          </h3>
-          <h3 className="m-0 absolute h-[32.91%] top-[34.18%] left-[calc(50%_+_84.5px)] text-inherit tracking-[-0.01em] font-medium font-inherit text-grey flex items-center justify-center w-[133px]">
-            Recruiter
-          </h3>
-        </div>
-        <div className="absolute top-[2186px] left-[calc(50%_-_109px)] text-base font-medium text-gray-3">
-          Copyright © PITCHINI 2024
-        </div>
-        <section className="absolute top-[1817px] left-[220px] w-[1063.4px] h-[162px] text-center text-11xl text-grey font-join-text">
-          <h3 className="m-0 absolute top-[109px] left-[0px] text-inherit font-medium font-inherit inline-block w-[173px] h-[53px]">
-            Full Name
-          </h3>
-          <h3 className="m-0 absolute top-[109px] left-[calc(50%_-_126.7px)] text-inherit font-medium font-inherit text-title inline-block w-[242px] h-[53px]">
-            Personal Details
-          </h3>
-          <h3 className="m-0 absolute top-[113px] left-[883px] text-inherit font-medium font-inherit inline-block w-[180.4px] h-[45px] [transform:_rotate(0.08deg)] [transform-origin:0_0]">
-            Completion
-          </h3>
-          <div className="absolute top-[0px] left-[44px] rounded-[50%] bg-grey w-[86px] h-[86px]" />
-          <div className="absolute top-[0px] left-[483px] rounded-[50%] bg-blue-1 box-border w-[86px] h-[86px] border-[3px] border-solid border-blue-1" />
-          <div className="absolute top-[0px] left-[930px] rounded-[50%] bg-silver-200 box-border w-[86px] h-[86px] border-[3px] border-solid border-grey" />
-          <div className="absolute top-[16px] left-[81px] text-18xl font-semibold text-white text-left inline-block w-3 h-[37px]">
-            1
-          </div>
-          <div className="absolute top-[13px] left-[515px] text-18xl font-semibold text-white text-left inline-block w-[22px] h-[43px]">
-            2
-          </div>
-          <div className="absolute top-[13px] left-[962px] text-18xl font-semibold text-left inline-block w-[22px] h-[43px]">
-            3
-          </div>
-          <div className="absolute top-[42px] left-[129px] box-border w-[355px] h-0.5 border-t-[2px] border-solid border-grey" />
-          <div className="absolute top-[41.5px] left-[567.5px] box-border w-[364px] h-[3px] border-t-[3px] border-solid border-grey" />
-        </section>
-        <div className="absolute top-[2030px] left-[521px] w-[462px] h-[79px] text-center text-9xl text-grey font-montserrat">
-          <textarea
-            className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_-_231px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-grey"
-            onClick={onRectangleTextarea2Click}
-          />
-          <textarea
-            className="bg-white [outline:none] absolute h-full top-[0%] bottom-[0%] left-[calc(50%_+_35px)] rounded-md shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[196px] cursor-pointer border-[3px] border-solid border-dgrad-color1"
-            onClick={onRectangleTextarea3Click}
-          />
-          <h3
-            className="m-0 absolute h-[32.91%] top-[32.91%] left-[calc(50%_-_203px)] text-inherit tracking-[-0.01em] font-medium font-inherit flex items-center justify-center w-[140px] cursor-pointer"
-            onClick={onBACKClick}
-          >
-            BACK
-          </h3>
-          <h3 className="m-0 absolute h-[32.91%] top-[32.91%] left-[calc(50%_+_66px)] text-inherit tracking-[-0.01em] font-medium font-inherit text-orange flex items-center justify-center w-[133px]">
-            NEXT
-          </h3>
-        </div>
-        <img
-          className="absolute top-[1181px] right-[1045.3px] w-[43.7px] h-[43.7px] overflow-hidden object-cover"
-          alt=""
-          src="/chevron-down@2x.png"
-        />
-        <img
-          className="absolute top-[1308px] right-[1100.3px] w-[43.7px] h-[43.7px] overflow-hidden object-cover"
-          alt=""
-          src="/chevron-down@2x.png"
-        />
-        <section className="absolute top-[1407px] left-[266px] rounded-sm bg-silver-200 box-border w-[972px] h-[271px] flex flex-col items-center justify-center text-center text-13xl text-darkgray-200 font-join-text border-[2px] border-solid border-blue-1">
-          <div className="w-[601px] h-[211px] flex flex-col items-center justify-start gap-[12px]">
-            <img
-              className="w-[152px] relative h-[104px] object-cover"
-              alt=""
-              src="/icon0101-1@2x.png"
-            />
-            <h2 className="m-0 w-[601px] relative text-inherit font-medium font-inherit inline-block h-[95px] shrink-0">
-              <p className="m-0">
-                <span>
-                  <span className="capitalize">D</span>
-                  <span className="lowercase">{`rag and `}</span>
-                  <span className="capitalize">d</span>
-                  <span className="lowercase">{`rop `}</span>
-                  <span className="capitalize">f</span>
-                  <span className="lowercase">ile here</span>
-                </span>
-              </p>
-              <p className="m-0">
-                <span>
-                  <span className="lowercase">o</span>
-                  <span className="capitalize">{`r `}</span>
-                </span>
-                <span className="[text-decoration:underline] text-blue-1">
-                  <span className="capitalize">c</span>
-                  <span className="lowercase">hoose file</span>
-                </span>
-              </p>
+          <FrameComponent9 />
+          <div className="self-stretch flex flex-row items-start justify-end text-left text-13xl text-darkgray-200">
+            <h2 className="m-0 h-[53px] relative text-inherit font-medium font-inherit inline-block mq1050:text-7xl mq450:text-lgi">
+              * Maximum size: 25MB
             </h2>
           </div>
-        </section>
-        <h2 className="m-0 absolute top-[1737px] left-[877px] text-inherit font-medium font-inherit inline-block w-[365px] h-[53px]">
-          * Maximum size: 25MB
-        </h2>
+        </div>
+      </div>
+      <main className="self-stretch flex flex-row items-start justify-center pt-0 pb-[5957.7px] pr-[29px] pl-5 box-border max-w-full lg:pb-[1636px] lg:box-border mq750:pb-[1063px] mq750:box-border">
+        <FrameComponent8 />
       </main>
+      <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[860px] text-left text-base-4 text-gray-3 mq1050:pl-[430px] mq1050:box-border mq450:pl-5 mq450:box-border mq750:pl-[215px] mq750:box-border">
+        <div className="h-[25px] w-[164px] relative font-medium inline-block">
+          Digidop ©Copyright
+        </div>
+      </div>
     </div>
   );
 };

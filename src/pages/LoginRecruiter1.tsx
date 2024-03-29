@@ -5,7 +5,7 @@ const LoginRecruiter1: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -25,7 +25,7 @@ const LoginRecruiter1: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="w-full relative bg-white h-[1589px] overflow-hidden text-left text-base-4 text-gray-3 font-join-text">
+    <div className="w-full relative bg-white h-[1589px] overflow-hidden text-left text-base-4 text-gray-3 font-paragraphe">
       <div className="absolute top-[8194.7px] left-[1095px] font-medium">
         Digidop ©Copyright
       </div>
@@ -63,7 +63,7 @@ const LoginRecruiter1: FunctionComponent = () => {
                 className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
                 onClick={onButtonContainerClick}
               >
-                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
+                <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey2" />
                 <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                   Join
                 </div>
@@ -83,7 +83,7 @@ const LoginRecruiter1: FunctionComponent = () => {
           Password*
         </div>
         <div className="absolute top-[687px] left-[443px] w-[100px] h-[100px] overflow-hidden" />
-        <div className="absolute top-[344px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px] h-[37px]">
+        <div className="absolute top-[344px] left-[calc(50%_-_452px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px] h-[37px]">
           <p className="m-0">{`To reset your password at PITCHINI, please enter your new password `}</p>
         </div>
         <div className="absolute top-[203px] left-[calc(50%_-_482px)] text-66xl font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">

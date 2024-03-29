@@ -6,7 +6,7 @@ const POPUPNotification: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-[400px] bg-white h-[592px] overflow-hidden max-w-full max-h-full text-center text-2xs text-gray-400 font-join-text">
+    <div className="w-[400px] bg-white h-[592px] overflow-hidden max-w-full max-h-full text-center text-2xs text-gray-400 font-paragraphe">
       <div className="absolute top-[0px] left-[calc(50%_-_200px)] bg-whitesmoke-100 w-[400px] h-[71px]" />
       <div className="absolute top-[124px] left-[calc(50%_-_200px)] bg-whitesmoke-100 w-[385px] h-[63px]" />
       <div className="absolute top-[12px] left-[18px] w-[163px] flex flex-col items-start justify-start text-xl text-gray-200">
@@ -15,7 +15,7 @@ const POPUPNotification: FunctionComponent = () => {
         </h2>
         <div className="relative text-2xs tracking-[-0.01em] font-light text-gray-400">
           <span>{`You have `}</span>
-          <span className="text-blue-1">5 Notifications</span>
+          <span className="text-blue">5 Notifications</span>
           <span> today.</span>
         </div>
       </div>
@@ -51,11 +51,11 @@ const POPUPNotification: FunctionComponent = () => {
         <img
           className="absolute top-[11px] left-[13px] w-[25px] h-[30px] object-cover"
           alt=""
-          src="/notf01@2x.png"
+          src="/notf011@2x.png"
         />
       </div>
       <div className="absolute top-[322px] left-[38px] w-[327px] h-[51px] text-gray-500 font-montserrat">
-        <div className="absolute top-[10px] left-[63px] w-[141px] flex flex-col items-start justify-start text-left font-join-text">
+        <div className="absolute top-[10px] left-[63px] w-[141px] flex flex-col items-start justify-start text-left font-paragraphe">
           <div className="w-[84px] relative tracking-[-0.01em] leading-[145.45%] uppercase font-medium flex items-center h-[15px] shrink-0">
             Le lorem ipsum
           </div>
@@ -69,7 +69,7 @@ const POPUPNotification: FunctionComponent = () => {
           alt=""
           src="/notf04-1@2x.png"
         />
-        <div className="absolute top-[calc(50%_-_13.5px)] left-[224px] bg-blue-1 w-12 h-[27px] text-white">
+        <div className="absolute top-[calc(50%_-_13.5px)] left-[224px] bg-blue w-12 h-[27px] text-white">
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-gray-300" />
           <div className="absolute top-[27.41%] left-[9.58%] tracking-[-0.01em] font-medium">
             Accept
@@ -100,11 +100,11 @@ const POPUPNotification: FunctionComponent = () => {
         <img
           className="absolute top-[11px] left-[13px] w-[25px] h-[30px] object-cover"
           alt=""
-          src="/notf01@2x.png"
+          src="/notf011@2x.png"
         />
       </div>
       <div className="absolute top-[198px] left-[38px] w-[327px] h-[51px] text-gray-500 font-montserrat">
-        <div className="absolute top-[10px] left-[63px] w-[141px] flex flex-col items-start justify-start text-left font-join-text">
+        <div className="absolute top-[10px] left-[63px] w-[141px] flex flex-col items-start justify-start text-left font-paragraphe">
           <div className="w-[84px] relative tracking-[-0.01em] leading-[145.45%] uppercase font-medium flex items-center h-[15px] shrink-0">
             Le lorem ipsum
           </div>
@@ -118,7 +118,7 @@ const POPUPNotification: FunctionComponent = () => {
           alt=""
           src="/notf04-1@2x.png"
         />
-        <div className="absolute top-[calc(50%_-_13.5px)] left-[224px] bg-blue-1 w-12 h-[27px] text-white">
+        <div className="absolute top-[calc(50%_-_13.5px)] left-[224px] bg-blue w-12 h-[27px] text-white">
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-gray-300" />
           <div className="absolute top-[27.41%] left-[9.58%] tracking-[-0.01em] font-medium">
             Accept
@@ -149,7 +149,7 @@ const POPUPNotification: FunctionComponent = () => {
         <img
           className="absolute top-[11px] left-[13px] w-[25px] h-[30px] object-cover"
           alt=""
-          src="/notf01@2x.png"
+          src="/notf011@2x.png"
         />
       </div>
       <div className="absolute top-[490px] left-[38px] w-[315px] h-[51px] text-left">
@@ -172,7 +172,7 @@ const POPUPNotification: FunctionComponent = () => {
         <img
           className="absolute top-[11px] left-[13px] w-[25px] h-[30px] object-cover"
           alt=""
-          src="/notf01@2x.png"
+          src="/notf011@2x.png"
         />
       </div>
       <div className="absolute top-[552px] left-[38px] w-[315px] h-[51px] text-left">
@@ -195,7 +195,7 @@ const POPUPNotification: FunctionComponent = () => {
         <img
           className="absolute top-[11px] left-[13px] w-[25px] h-[30px] object-cover"
           alt=""
-          src="/notf01@2x.png"
+          src="/notf011@2x.png"
         />
       </div>
       <img

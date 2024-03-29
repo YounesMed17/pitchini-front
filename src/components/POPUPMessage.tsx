@@ -14,7 +14,7 @@ const POPUPMessage: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-[400px] bg-white h-[592px] overflow-hidden max-w-full max-h-full text-center text-2xs text-gray-400 font-join-text">
+    <div className="w-[400px] bg-white h-[592px] overflow-hidden max-w-full max-h-full text-center text-2xs text-gray-400 font-paragraphe">
       <div className="absolute top-[0px] left-[calc(50%_-_200px)] bg-whitesmoke-100 w-[400px] h-[71px]" />
       <div className="absolute top-[146px] left-[calc(50%_-_200px)] bg-whitesmoke-100 w-[385px] h-[92px]" />
       <div className="absolute top-[12px] left-[18px] w-[151px] flex flex-col items-start justify-start text-xl text-gray-200">
@@ -29,7 +29,7 @@ const POPUPMessage: FunctionComponent = () => {
           onClick={onYouHave5Click}
         >
           <span>{`You have `}</span>
-          <span className="text-blue-1">5 Messages</span>
+          <span className="text-blue">5 Messages</span>
           <span> today.</span>
         </div>
       </div>

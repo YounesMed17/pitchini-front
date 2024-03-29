@@ -25,7 +25,7 @@ const PolicyHeaderNavigation: FunctionComponent = () => {
         src="/logo-pitchini-11@2x.png"
       />
       <div className="w-[596px] h-10 flex flex-row items-center justify-end gap-[56px]">
-        <nav className="m-0 flex flex-row items-start justify-start gap-[54px] text-center text-xl text-gray-200 font-join-text">
+        <nav className="m-0 flex flex-row items-start justify-start gap-[54px] text-center text-xl text-gray-200 font-paragraphe">
           <div className="relative tracking-[-0.01em] font-medium">
             Policies
           </div>

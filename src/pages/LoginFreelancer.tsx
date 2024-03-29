@@ -5,7 +5,7 @@ const LoginFreelancer: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const onContactTextClick = useCallback(() => {
@@ -41,7 +41,7 @@ const LoginFreelancer: FunctionComponent = () => {
   }, []);
 
   return (
-    <div className="w-full relative bg-white h-[1889px] overflow-hidden text-center text-5xl text-blue-1 font-join-text">
+    <div className="w-full relative bg-white h-[1889px] overflow-hidden text-center text-5xl text-blue font-paragraphe">
       <div className="absolute top-[1826px] left-[calc(50%_-_116px)] text-base font-medium text-gray-3 text-left">
         Copyright © PITCHINI 2024
       </div>
@@ -78,7 +78,7 @@ const LoginFreelancer: FunctionComponent = () => {
               className="w-[86px] relative h-10 cursor-pointer text-white font-montserrat"
               onClick={onButtonContainerClick}
             >
-              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-md bg-grey2" />
               <div className="absolute top-[20%] left-[25%] tracking-[-0.01em] font-medium">
                 Join
               </div>
@@ -93,7 +93,7 @@ const LoginFreelancer: FunctionComponent = () => {
         </div>
       </div>
       <div
-        className="absolute h-[4.18%] top-[77.66%] bottom-[18.16%] left-[calc(50%_-_320px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[639px] cursor-pointer border-[3px] border-solid border-blue-1"
+        className="absolute h-[4.18%] top-[77.66%] bottom-[18.16%] left-[calc(50%_-_320px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[639px] cursor-pointer border-[3px] border-solid border-blue"
         onClick={onRectangleClick}
       />
       <div className="absolute h-[4.18%] top-[82.95%] bottom-[12.86%] left-[calc(50%_-_320px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[639px] border-[3px] border-solid border-gray-4" />
@@ -103,7 +103,7 @@ const LoginFreelancer: FunctionComponent = () => {
       >
         SIGN IN
       </div>
-      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-blue-1" />
+      <div className="absolute top-[1138px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-blue" />
       <div className="absolute top-[1258px] left-[270px] rounded-sm bg-silver-200 box-border w-[972px] h-[99px] border-[2px] border-solid border-grey" />
       <div className="absolute top-[1161px] left-[292px] text-13xl font-medium text-left inline-block w-[301px] h-[53px]">
         E-mail Address*
@@ -124,7 +124,7 @@ const LoginFreelancer: FunctionComponent = () => {
         Remember me
       </div>
       <div className="absolute top-[687px] left-[443px] w-[100px] h-[100px] overflow-hidden" />
-      <div className="absolute top-[340px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey2 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
+      <div className="absolute top-[340px] left-[calc(50%_-_451px)] text-6xl leading-[146%] font-medium text-grey1 inline-block w-[903px]">{`Are you using PITCHINI as a Recruiter or a Freelancer ? `}</div>
       <div className="absolute top-[199px] left-[calc(50%_-_481px)] text-66xl font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block w-[963px] h-[124px] [text-shadow:1px_0_0_#000,_0_1px_0_#000,_-1px_0_0_#000,_0_-1px_0_#000]">
         Login the Pitchini
       </div>
@@ -145,7 +145,7 @@ const LoginFreelancer: FunctionComponent = () => {
           src="/login02-converti02-1@2x.png"
         />
         <div className="w-[595px] relative h-[79px]">
-          <div className="absolute h-full top-[0%] bottom-[0%] left-[calc(50%_-_297.5px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[293px] border-[3px] border-solid border-blue-1" />
+          <div className="absolute h-full top-[0%] bottom-[0%] left-[calc(50%_-_297.5px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[293px] border-[3px] border-solid border-blue" />
           <div
             className="absolute h-full top-[0%] bottom-[0%] left-[calc(50%_+_4.5px)] rounded-md bg-white shadow-[0px_4px_12px_-1px_rgba(0,_0,_0,_0.25)] box-border w-[293px] cursor-pointer border-[3px] border-solid border-grey"
             onClick={onRectangle1Click}

@@ -39,9 +39,9 @@ const ScheduleContainer: FunctionComponent<ScheduleContainerType> = ({
   }, [propWidth2]);
 
   return (
-    <div className="w-[479px] relative h-[146px] text-justify text-3xl text-white font-join-text">
+    <div className="w-[479px] relative h-[146px] text-justify text-3xl text-white font-paragraphe">
       <div className="absolute top-[2px] left-[0px] rounded-3xs bg-white shadow-[4px_4px_23.5px_rgba(0,_0,_0,_0.09)] w-[479px] h-[143px]" />
-      <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue-1 w-[153px] h-[146px]" />
+      <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue w-[153px] h-[146px]" />
       <b
         className="absolute top-[44px] left-[19px] leading-[140.63%] flex items-center w-[115px] h-[59px]"
         style={thursday14th2024Style}
@@ -58,7 +58,7 @@ const ScheduleContainer: FunctionComponent<ScheduleContainerType> = ({
         >
           {meetingPurposeText}
         </div>
-        <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue-1 text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
+        <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
       </div>
     </div>
   );

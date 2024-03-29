@@ -1,77 +1,12 @@
-import { FunctionComponent, useCallback } from "react";
+import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import EnTete1 from "../components/EnTete1";
 
-const JointFreelancerInterview: FunctionComponent = () => {
-  const navigate = useNavigate();
-
-  const onLogoPitchini1Click = useCallback(() => {
-    navigate("/home-page");
-  }, [navigate]);
-
-  const onContactTextClick = useCallback(() => {
-    // Please sync "Contact Page " to the project
-  }, []);
-
-  const onLoginTextClick = useCallback(() => {
-    navigate("/login");
-  }, [navigate]);
-
-  const onButtonContainerClick = useCallback(() => {
-    navigate("/joint-freelancer-p1");
-  }, [navigate]);
-
+const RecruiterInterview: FunctionComponent = () => {
   return (
     <div className="w-full h-[1889px] relative bg-white overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[39px] box-border gap-[6344.7px] tracking-[normal] text-left text-base-4 text-gray-3 font-paragraphe mq450:gap-[1586px_6344.7px] mq1000:gap-[3172px_6344.7px]">
-      <main className="self-stretch flex flex-col items-end justify-start gap-[144px] shrink-0 [debug_commit:f6aba90] max-w-full mq450:gap-[36px_144px] mq1000:gap-[72px_144px]">
-        <header className="self-stretch bg-whitesmoke-100 flex flex-row items-start justify-between py-[17.5px] pr-[42px] pl-[41px] box-border top-[0] z-[99] sticky max-w-full gap-[20px] text-center text-xl text-gray-200 font-paragraphe mq1000:pr-[21px] mq1000:box-border">
-          <img
-            className="h-[92px] w-[304px] relative object-cover cursor-pointer"
-            loading="lazy"
-            alt=""
-            src="/logo-pitchini-1@2x.png"
-            onClick={onLogoPitchini1Click}
-          />
-          <div className="w-[596px] flex flex-col items-start justify-start pt-[26px] px-0 pb-0 box-border max-w-full mq1000:w-0">
-            <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq1000:hidden">
-              <div className="w-[74px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
-                <div className="self-stretch relative tracking-[-0.01em] font-medium inline-block min-w-[74px]">
-                  Policies
-                </div>
-              </div>
-              <div className="w-[85px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
-                <div className="self-stretch relative tracking-[-0.01em] font-medium inline-block min-w-[85px]">
-                  Discover
-                </div>
-              </div>
-              <div className="w-[81px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
-                <div
-                  className="self-stretch relative tracking-[-0.01em] font-medium inline-block min-w-[81px] cursor-pointer"
-                  onClick={onContactTextClick}
-                >
-                  Contact
-                </div>
-              </div>
-              <div className="w-[53px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
-                <div
-                  className="self-stretch relative tracking-[-0.01em] font-medium inline-block min-w-[53px] cursor-pointer"
-                  onClick={onLoginTextClick}
-                >
-                  Login
-                </div>
-              </div>
-              <div
-                className="flex flex-row items-start justify-start py-2 px-[21.5px] relative cursor-pointer text-white font-montserrat"
-                onClick={onButtonContainerClick}
-              >
-                <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-md bg-grey2" />
-                <div className="w-[42px] relative tracking-[-0.01em] font-medium inline-block min-w-[42px] z-[1]">
-                  Join
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+      <main className="self-stretch flex flex-col items-end justify-start gap-[144px] shrink-0 [debug_commit:f6aba90] mq450:gap-[36px_144px] mq1000:gap-[72px_144px]">
+        <EnTete1 />
         <section className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[21px] box-border max-w-full text-center text-30xl text-darkgray-400 font-paragraphe">
           <div className="w-[959px] flex flex-col items-start justify-start gap-[87px] max-w-full mq725:gap-[22px_87px] mq1000:gap-[43px_87px]">
             <img
@@ -142,4 +77,4 @@ const JointFreelancerInterview: FunctionComponent = () => {
   );
 };
 
-export default JointFreelancerInterview;
+export default RecruiterInterview;

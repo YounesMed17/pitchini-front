@@ -12,7 +12,7 @@ const Dashboard: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onLogoPitchini1Click = useCallback(() => {
-    navigate("/");
+    navigate("/home-page");
   }, [navigate]);
 
   const openPOPUPNotification = useCallback(() => {
@@ -45,8 +45,8 @@ const Dashboard: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-white h-[1947px] overflow-hidden text-justify text-13xl text-gray-800 font-join-text">
-        <header className="absolute top-[0px] left-[calc(50%_-_960px)] bg-whitesmoke-100 w-[1920px] h-[127px] flex flex-row items-center justify-start pt-[17px] px-[41px] pb-[18px] box-border gap-[1083px] text-center text-xl text-gray-200 font-join-text">
+      <div className="w-full relative bg-white h-[1947px] overflow-hidden text-justify text-13xl text-gray-800 font-paragraphe">
+        <header className="absolute top-[0px] left-[calc(50%_-_960px)] bg-whitesmoke-100 w-[1920px] h-[127px] flex flex-row items-center justify-start pt-[17px] px-[41px] pb-[18px] box-border gap-[1083px] text-center text-xl text-gray-200 font-paragraphe">
           <img
             className="w-[304px] relative h-[92px] object-cover cursor-pointer"
             alt=""
@@ -77,7 +77,7 @@ const Dashboard: FunctionComponent = () => {
             <img
               className="w-[66px] relative h-[66px] object-cover cursor-pointer"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group9@2x.png"
               onClick={onMaskGroupImageClick}
             />
           </div>
@@ -98,7 +98,7 @@ const Dashboard: FunctionComponent = () => {
               <img
                 className="w-[34px] relative h-[27px] object-cover opacity-[0.38]"
                 alt=""
-                src="/vecteezy-notificationiconsvectordesign-10654946-converti05-1@2x.png"
+                src="/vecteezy-notificationiconsvectordesign-10654946-converti05-12@2x.png"
               />
               <div className="w-[155px] relative leading-[120%] font-light flex items-center h-[34px] shrink-0">
                 <span className="w-full">
@@ -110,7 +110,7 @@ const Dashboard: FunctionComponent = () => {
         </div>
         <div className="absolute top-[125px] left-[0px] bg-whitesmoke-300 w-[465px] h-[1822px] text-center text-8xl text-gray-200">
           <div className="absolute top-[565px] left-[0px] bg-lightskyblue-200 w-[465px] h-[92px]" />
-          <div className="absolute right-[0px] bottom-[1167px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue-1 w-[17px] h-[92px]" />
+          <div className="absolute right-[0px] bottom-[1167px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue w-[17px] h-[92px]" />
           <div className="absolute top-[2px] left-[0px] bg-whitesmoke-200 w-[465px] h-[1822px]">
             <div className="absolute top-[402px] left-[104px] text-7xl tracking-[-0.01em] leading-[145.45%] font-light text-gray-800 flex items-center justify-center w-[258px] h-[59px]">
               Lorem@gmail.com
@@ -223,7 +223,7 @@ const Dashboard: FunctionComponent = () => {
             <div className="w-[609px] relative h-[494px]">
               <div className="absolute top-[348px] left-[0px] rounded-3xs bg-white shadow-[4px_4px_23.5px_rgba(0,_0,_0,_0.09)] w-[609px] h-[143px]" />
               <div className="absolute top-[0px] left-[0px] rounded-3xs bg-white shadow-[4px_4px_23.5px_rgba(0,_0,_0,_0.09)] w-[609px] h-[143px]" />
-              <div className="absolute right-[582px] bottom-[348px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue-1 w-[27px] h-[146px]" />
+              <div className="absolute right-[582px] bottom-[348px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue w-[27px] h-[146px]" />
               <div className="absolute top-[67px] left-[52px] tracking-[-0.01em] leading-[145.45%] font-light flex items-center w-72 h-[59px]">
                 Prepare Figma File
               </div>
@@ -250,7 +250,7 @@ const Dashboard: FunctionComponent = () => {
           <div className="absolute top-[134px] left-[541px] rounded-[50%] bg-b w-[47px] h-12 opacity-[0.41]" />
           <div className="absolute top-[308px] left-[541px] rounded-[50%] bg-b w-[47px] h-12 opacity-[0.41]" />
         </div>
-        <section className="absolute top-[1628px] left-[544px] w-[1485px] h-64 flex flex-col items-start justify-start gap-[51px] text-justify text-13xl text-white font-join-text">
+        <section className="absolute top-[1628px] left-[544px] w-[1485px] h-64 flex flex-col items-start justify-start gap-[51px] text-justify text-13xl text-white font-paragraphe">
           <div className="w-[606px] relative tracking-[-0.01em] leading-[145.45%] font-semibold text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] flex items-center h-[59px] shrink-0">
             Interview / Video call
           </div>
@@ -261,7 +261,7 @@ const Dashboard: FunctionComponent = () => {
             />
             <div className="w-[479px] relative h-[146px]">
               <div className="absolute top-[2px] left-[0px] rounded-3xs bg-white shadow-[4px_4px_23.5px_rgba(0,_0,_0,_0.09)] w-[479px] h-[143px]" />
-              <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue-1 w-[153px] h-[146px]" />
+              <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue w-[153px] h-[146px]" />
               <b className="absolute top-[44px] left-[8px] leading-[140.63%] flex items-center w-[137px] h-[59px]">
                 Wednesday 13th, 2024
               </b>
@@ -269,12 +269,12 @@ const Dashboard: FunctionComponent = () => {
                 <div className="w-[252px] relative leading-[113%] font-medium flex items-center h-[86px] shrink-0">
                   Video call for Mobile application
                 </div>
-                <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue-1 text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
+                <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
               </div>
             </div>
             <div className="w-[479px] relative h-[146px]">
               <div className="absolute top-[2px] left-[0px] rounded-3xs bg-white shadow-[4px_4px_23.5px_rgba(0,_0,_0,_0.09)] w-[479px] h-[143px]" />
-              <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue-1 w-[153px] h-[146px]" />
+              <div className="absolute right-[326px] bottom-[0px] rounded-tl-3xs rounded-tr-none rounded-br-none rounded-bl-3xs bg-blue w-[153px] h-[146px]" />
               <b className="absolute top-[44px] left-[19px] leading-[140.63%] flex items-center w-[115px] h-[59px]">
                 Thursday 7th, 2024
               </b>
@@ -282,7 +282,7 @@ const Dashboard: FunctionComponent = () => {
                 <div className="w-60 relative leading-[113%] font-medium flex items-center h-[86px] shrink-0">
                   Video call for UX wireframe project
                 </div>
-                <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue-1 text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
+                <div className="w-[179px] relative text-lgi [text-decoration:underline] tracking-[-0.01em] leading-[145.45%] font-light text-blue text-justify flex items-center h-[37px] shrink-0 mt-[-7px]">{`Join the meeting `}</div>
               </div>
             </div>
           </div>
@@ -305,7 +305,7 @@ const Dashboard: FunctionComponent = () => {
             <img
               className="absolute top-[24px] left-[8px] w-[102px] h-24 object-cover"
               alt=""
-              src="/icon04-1@2x.png"
+              src="/icon04-11@2x.png"
             />
             <div className="absolute top-[60px] left-[calc(50%_-_181.5px)] leading-[105%] uppercase font-medium inline-block w-[81px] h-[23px]">
               ui/ux
@@ -319,7 +319,7 @@ const Dashboard: FunctionComponent = () => {
             <img
               className="absolute top-[14px] left-[323px] w-[107px] h-[116px] object-cover"
               alt=""
-              src="/icon05-1@2x.png"
+              src="/icon05-11@2x.png"
             />
             <div className="absolute top-[238px] left-[calc(50%_+_134.5px)] leading-[105%] uppercase font-medium inline-block w-[164px] h-[23px]">
               App design
@@ -327,16 +327,16 @@ const Dashboard: FunctionComponent = () => {
             <img
               className="absolute top-[191px] left-[318px] w-[116px] h-[118px] object-cover"
               alt=""
-              src="/icon02-1@2x.png"
+              src="/icon02-11@2x.png"
             />
             <img
               className="absolute top-[192px] left-[12px] w-[103px] h-[118px] object-cover"
               alt=""
-              src="/icon03-1@2x.png"
+              src="/icon03-11@2x.png"
             />
           </div>
         </div>
-        <section className="absolute top-[510px] left-[544px] w-[1859px] h-[412px] text-justify text-3xl text-b font-join-text">
+        <section className="absolute top-[510px] left-[544px] w-[1859px] h-[412px] text-justify text-3xl text-b font-paragraphe">
           <img
             className="absolute top-[0px] left-[0px] rounded-18xl w-[603px] h-[410px] object-cover opacity-[0.29]"
             alt=""
@@ -345,7 +345,7 @@ const Dashboard: FunctionComponent = () => {
           <div className="absolute top-[307px] left-[39px] tracking-[-0.01em] leading-[145.45%] font-light whitespace-pre-wrap flex items-center w-[515px] h-8">
             12 Tasks | 61%
           </div>
-          <h3 className="m-0 absolute top-[148px] left-[39px] text-31xl leading-[113%] font-semibold font-inherit text-blue-1 text-left flex items-center w-[379.6px] h-[92.4px]">
+          <h3 className="m-0 absolute top-[148px] left-[39px] text-31xl leading-[113%] font-semibold font-inherit text-blue text-left flex items-center w-[379.6px] h-[92.4px]">
             Mobile App Design
           </h3>
           <div className="absolute top-[257px] left-[39px] text-5xl tracking-[-0.01em] leading-[145.45%] font-light text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left flex items-center w-[332.6px] h-[31.9px]">
@@ -410,7 +410,7 @@ const Dashboard: FunctionComponent = () => {
             <div className="absolute top-[307px] left-[39px] tracking-[-0.01em] leading-[145.45%] font-light whitespace-pre-wrap flex items-center w-[515px] h-8">
               12 Tasks | 61%
             </div>
-            <h3 className="m-0 absolute top-[148px] left-[39px] text-31xl leading-[113%] font-semibold font-inherit text-blue-1 text-left flex items-center w-[379.6px] h-[92.4px]">
+            <h3 className="m-0 absolute top-[148px] left-[39px] text-31xl leading-[113%] font-semibold font-inherit text-blue text-left flex items-center w-[379.6px] h-[92.4px]">
               Mobile App Design
             </h3>
             <div className="absolute top-[257px] left-[39px] text-5xl tracking-[-0.01em] leading-[145.45%] font-light text-transparent !bg-clip-text [background:linear-gradient(99.26deg,_#000)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left flex items-center w-[332.6px] h-[31.9px]">
@@ -442,7 +442,7 @@ const Dashboard: FunctionComponent = () => {
               />
             </div>
           </div>
-          <div className="absolute top-[55px] left-[39px] w-[114px] h-[52.6px] flex flex-row items-center justify-start text-[18px] text-white">
+          <div className="absolute top-[55px] left-[39px] w-[114px] h-[52.6px] flex flex-row items-center justify-start text-lg text-white">
             <div className="w-[52.3px] relative h-[52.3px]">
               <div className="absolute top-[0px] left-[0px] rounded-[50%] bg-orange box-border w-[52.3px] h-[52.3px] opacity-[0.41] border-[1px] border-solid border-orange" />
               <div className="absolute top-[13.5px] left-[14.3px] tracking-[-0.01em] leading-[145.45%] font-semibold flex items-center w-[24.4px] h-[25.2px]">
@@ -452,7 +452,7 @@ const Dashboard: FunctionComponent = () => {
             <img
               className="w-[52.6px] relative h-[52.6px] object-cover cursor-pointer ml-[-21px]"
               alt=""
-              src="/mask-group@2x.png"
+              src="/mask-group10@2x.png"
               onClick={onMaskGroupImage2Click}
             />
             <img

@@ -3,11 +3,11 @@ import PolicyHeaderNavigation from "../components/PolicyHeaderNavigation";
 
 const HomePage: FunctionComponent = () => {
   return (
-    <div className="w-full relative bg-white h-[5812px] overflow-hidden text-left text-base-4 text-gray-3 font-join-text">
+    <div className="w-full relative bg-white h-[5812px] overflow-hidden text-left text-base-4 text-gray-3 font-paragraphe">
       <div className="absolute top-[8194.7px] left-[1095px] font-medium">
         Digidop ©Copyright
       </div>
-      <section className="absolute top-[4992px] left-[calc(50%_-_774px)] [background:linear-gradient(99.26deg,_#000)] w-[1548px] h-[820px] flex flex-row items-start justify-start py-[95px] px-[168px] box-border gap-[142px] text-left text-2xl text-gray-3 font-join-text">
+      <section className="absolute top-[4992px] left-[calc(50%_-_774px)] [background:linear-gradient(99.26deg,_#000)] w-[1548px] h-[820px] flex flex-row items-start justify-start py-[95px] px-[168px] box-border gap-[142px] text-left text-2xl text-gray-3 font-paragraphe">
         <div className="w-[198px] relative h-[529px]">
           <div className="absolute top-[0px] left-[0px] text-5xl font-semibold text-white">
             Categories
@@ -115,7 +115,7 @@ const HomePage: FunctionComponent = () => {
       </div>
       <section className="absolute top-[0px] left-[calc(50%_-_756px)] bg-whitesmoke-100 w-[1512px] h-[127px]" />
       <PolicyHeaderNavigation />
-      <section className="absolute top-[794px] left-[78px] w-[1336px] h-[215px] flex flex-col items-center justify-center gap-[37px] text-left text-15xl text-orange font-join-text">
+      <section className="absolute top-[794px] left-[78px] w-[1336px] h-[215px] flex flex-col items-center justify-center gap-[37px] text-left text-15xl text-orange font-paragraphe">
         <div className="w-[391px] flex flex-col items-center justify-center">
           <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
             Pitchini is trusted by
@@ -134,7 +134,7 @@ const HomePage: FunctionComponent = () => {
           src="/hero-text@2x.png"
         />
         <div className="w-[554.1px] relative h-[59.2px] opacity-[0]">
-          <div className="absolute h-full w-[46.22%] top-[0%] right-[53.78%] bottom-[0%] left-[0%] rounded-md bg-grey1" />
+          <div className="absolute h-full w-[46.22%] top-[0%] right-[53.78%] bottom-[0%] left-[0%] rounded-md bg-grey2" />
           <div className="absolute h-[44.59%] w-[38.15%] top-[27.7%] left-[4.15%] tracking-[-0.01em] font-medium flex items-center justify-center">
             Hire Details
           </div>
@@ -146,7 +146,7 @@ const HomePage: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <section className="absolute top-[3884px] left-[78px] w-[1310px] h-[992px] text-center text-6xl text-grey2 font-join-text">
+      <section className="absolute top-[3884px] left-[78px] w-[1310px] h-[992px] text-center text-6xl text-grey1 font-paragraphe">
         <div className="absolute top-[0px] left-[171px] w-[960px] h-[198px]">
           <div className="absolute top-[124px] left-[calc(50%_-_440px)] leading-[146%] font-medium inline-block w-[903px]">
             Well picked word wide freelancers, full time avaolability and
@@ -166,7 +166,7 @@ const HomePage: FunctionComponent = () => {
             <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
               Worldwide experts
             </h2>
-            <div className="w-[535px] relative text-3xl leading-[146%] text-grey2 inline-block">
+            <div className="w-[535px] relative text-3xl leading-[146%] text-grey1 inline-block">
               Discover a large selection of talented workers, from all around
               the word. Get in touch with them and give life to your ideas,
               together.
@@ -176,7 +176,7 @@ const HomePage: FunctionComponent = () => {
             <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
               worldwide payments
             </h2>
-            <div className="w-[531px] relative text-3xl leading-[146%] text-grey2 inline-block">
+            <div className="w-[531px] relative text-3xl leading-[146%] text-grey1 inline-block">
               PITCHINI accepts all time of payments as it preceeds to pay the
               freelancers in the currency he wants, giving worldwide
               interactions.
@@ -186,7 +186,7 @@ const HomePage: FunctionComponent = () => {
             <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
               full time availability
             </h2>
-            <div className="w-[535px] relative text-3xl leading-[146%] text-grey2 inline-block">
+            <div className="w-[535px] relative text-3xl leading-[146%] text-grey1 inline-block">
               As PITCHINI offers worldwide freelancers, work flow and online
               support is available 24/7, anytime, anyplace.
             </div>
@@ -208,7 +208,7 @@ const HomePage: FunctionComponent = () => {
           />
         </div>
       </section>
-      <section className="absolute top-[1161px] left-[84px] w-[1326px] h-[2571px] flex flex-col items-center justify-center gap-[36px] text-center text-6xl text-grey2 font-join-text">
+      <section className="absolute top-[1161px] left-[84px] w-[1326px] h-[2571px] flex flex-col items-center justify-center gap-[36px] text-center text-6xl text-grey1 font-paragraphe">
         <div className="w-[903px] relative h-[401px]">
           <div className="absolute top-[327px] left-[calc(50%_-_451.5px)] leading-[146%] font-medium inline-block w-[903px]">
             <p className="m-0">
@@ -261,7 +261,7 @@ const HomePage: FunctionComponent = () => {
                   <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
                     SPECIAL SELECTION
                   </h2>
-                  <div className="w-[555px] relative text-3xl leading-[146%] font-medium text-grey2 inline-block">
+                  <div className="w-[555px] relative text-3xl leading-[146%] font-medium text-grey1 inline-block">
                     PITCHINI is a e-Agency, therefore the freelancers are
                     selected based on their skills, experience and liability.
                   </div>
@@ -270,7 +270,7 @@ const HomePage: FunctionComponent = () => {
                   <h2 className="m-0 relative text-inherit uppercase font-semibold font-inherit">
                     Group selection
                   </h2>
-                  <div className="w-[555px] relative text-3xl leading-[146%] font-medium text-grey2 inline-block">
+                  <div className="w-[555px] relative text-3xl leading-[146%] font-medium text-grey1 inline-block">
                     For bigger Projects, PITCHINI Groups is your option. Recruit
                     Pre-organized teams composition for your End-To-End Projects
                     and more.
@@ -325,7 +325,7 @@ const HomePage: FunctionComponent = () => {
               alt=""
               src="/02speechanalyticsv301-1@2x.png"
             />
-            <div className="absolute top-[463px] left-[691px] w-[633px] h-[142px] text-3xl text-grey2">
+            <div className="absolute top-[463px] left-[691px] w-[633px] h-[142px] text-3xl text-grey1">
               <div className="absolute top-[78px] left-[calc(50%_-_213.5px)] tracking-[-0.05em] leading-[146%] inline-block w-[530px]">
                 <p className="m-0">
                   PITCHINI is a e-Agency, therefore the freelancers are
@@ -348,7 +348,7 @@ const HomePage: FunctionComponent = () => {
                 <h3 className="m-0 w-[507px] relative text-inherit uppercase font-semibold font-inherit inline-block">
                   live time chat
                 </h3>
-                <div className="w-[529px] relative text-3xl tracking-[-0.02em] leading-[146%] text-grey2 inline-block">
+                <div className="w-[529px] relative text-3xl tracking-[-0.02em] leading-[146%] text-grey1 inline-block">
                   PITCHINI offers a real-time services, to proceed to deal with
                   the second part of the projects, group chats are also
                   available for team projects.
@@ -365,7 +365,7 @@ const HomePage: FunctionComponent = () => {
                 <h3 className="m-0 w-[478px] relative text-inherit uppercase font-semibold font-inherit inline-block">
                   Costomized payments
                 </h3>
-                <div className="w-[529px] relative text-3xl tracking-[-0.03em] leading-[146%] text-grey2 inline-block">
+                <div className="w-[529px] relative text-3xl tracking-[-0.03em] leading-[146%] text-grey1 inline-block">
                   Settle your payment methods and duration as you deal with the
                   freelancers, all type of payments are accepted and proceeded
                   inside PITCHINI.
